@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivansh's Portfolio</title>
+    <link rel="stylesheet" href="portfolio_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+  <a class="navbar-brand" href="index.jsp"> <span class="fa fa-asterisk"></span> ShivBlog</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><span class="fa fa-handshake-o"></span> Learn with Shivansh <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="fa fa-sitemap"></span> Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Programming language</a>
+          <a class="dropdown-item" href="#">DSA</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Project Implementaion</a>
+        </div>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="index.html"><span class="fa fa-phone"></span> Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#add_post_modal"><span class="fa fa-book"></span> Do Post</a>
+      </li>
+    </ul>
+    
+    <ul class="navbar-nav mr-right">
+    <li class="nav-item">
+     <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter"><span class="fa fa-user"></span></a>
+    </li>
+    <form action="LogoutServlet" method="post">
+     <button class="btn btn-outline-light font-weight-bold" ><span class="fa fa-user-circle"></span> Log out</button>
+     </form>
+    </ul>
+  </div>
+</nav>
+    <div id="main-wrapper">
+    <header>
+        <div id="home" class="hero flex">
+            <div class="right">
+                <h5>Shivansh Vashistha</h5>
+                <h1>Full Stack <span><br>Web-Developer</span></h1>
+           
+            </div>
+        </div>
+    </header>
+   
+    <section class="freelancer">
+        <h1>I Am Available For Freelancing.</h1>
+        <p>I can provide high standard clean website for your business solutions.</p>
+        <a href="https://drive.google.com/file/d/1P-FagLBJ6-RQH462P0C9_AfgYpPnLat7/view?usp=sharing"> 
+            <button class="btn btn-secondary">DOWNLOAD CV</button></a>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h1 id="contact" class="section-heading">Contact <span>Us</span></h1>
+            <br>
+  <div class="card-deck">
+  <div class="card">
+    <img src="https://th.bing.com/th/id/OIP.5u7A1BVR50f-1m2MNJFczAHaHa?w=171&h=180&c=7&o=5&dpr=1.25&pid=1.7" class="card-img-top" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Email Us On</h5>
+      <p class="card-text">vashisthashivansh@gmail.com</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://th.bing.com/th/id/OIP.14hn343P6HKiPKkxJqDh9gHaGj?w=202&h=180&c=7&o=5&dpr=1.25&pid=1.7" class="card-img-top" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Linked in</h5>
+      <p class="card-text">//shivansh-vashistha</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://th.bing.com/th/id/OIP.bhlUB1eQfmysmFtQb71JCAHaHa?w=180&h=180&c=7&o=5&dpr=1.25&pid=1.7" class="card-img-top" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Call Us On</h5>
+      <p class="card-text">9166709680</p>
+    </div>
+  </div>
+</div>
+<div class="button-wrap">
+            <span class="btn btn-primary">Have a Nice Day</span></div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
